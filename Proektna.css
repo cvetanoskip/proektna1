@@ -1,0 +1,217 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px;
+}
+.pocetnakopce1{
+    background-color: transparent;
+    border-color: transparent;
+}
+.pocetna1{
+    height: 25px;
+    background-color: transparent;
+}
+.profilna{
+    height: 25px;
+    
+}
+footer{
+    position: relative;  
+left: 0px;  
+
+bottom: 0px;  
+right: 0px;   
+background-color: rgb(27, 103, 129);
+width: 100%;  
+color: black;  
+text-align: center; 
+}
+.paymentclass{
+    right: 0px;
+    text-align: right;
+}
+.establishclass{
+    left: 0px;
+    margin-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paymentlogo{
+    height: 20px;
+    width: 200px;
+}
+.dymatizeclass{
+    margin-left: 30px;
+    left: 0px;
+    text-align: left;
+}
+.dymatizelogoclass{
+
+    height: 100px;
+    width: 200px;
+    
+}
+.socialclass{
+    margin-left: 30px;
+    left: 0px;
+    text-align: right;
+}
+.kontaktClass{
+    color: black;
+}
+.sociallogoclass{
+
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 25px;
+}
+.sociallogoclass:hover{
+    opacity: 0.8;
+}
+#main {
+    right: 0;
+    transition: .5s;
+    
+  }
+  .profilnakopce1{
+    background-color: transparent;
+    contain: content;
+    border-color: transparent;
+  }
+  .warning{
+    color: transparent;
+    font-size: small;
+    user-select: none;
+  }
+  .odjavi{
+    text-align: right;
+   
+  }
+  .odjavibtn{
+    
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .warning1{
+    color: transparent;
+    font-size: small;
+    user-select: none;
+  }
+  .najava .ime1{
+    font-size: 15px;
+    left: 1;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-weight: normal;
+  }
+  .najava .lozinka{
+    font-size: 15px;
+    left: 0;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-weight: normal;
+  }
+.najava{
+    height: 100%; 
+    -webkit-text-stroke-width: 0px;
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: bold;
+  width: 0; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  right: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: transparent; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s;
+}
+.najava .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.footer-content{
+    -webkit-text-stroke-width: 0px;
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-template-columns: max-content 1fr max-content;
+    grid-gap: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif
+}
+.page-wrapper{
+    min-height: 100%;
+}
+.ime{
+    text-align: right;
+}
+html, body{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(./Icons/background.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 20%;
+    color: white;
+    font-size: 20px;
+    
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.najava{
+    color: black;
+}
+.najava .login{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container1 .kontaktClass{
+    margin-top: 15px;
+    color: inherit;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 20px;
+    text-align: center;
+  
+    
+}
+
+header {
+    
+    transition: 3s;
+    background-color: transparent;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 0.4%;
+    padding-right: 2%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-underline-position: below;
+    font-weight: bold;
+}
+header:hover {
+    transition: 3s;
+    background-color: cyan;
+    color: black;
+}

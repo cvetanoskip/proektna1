@@ -1,0 +1,49 @@
+html,body
+{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ), url(./Icons/supplements.jpg);
+    background-color: white;
+    height: 100%;
+}
+.container1{
+    margin-top: 15px;
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 20px;
+    text-align: left;
+  
+    
+}
+.proteinidiv .kreatin{
+    width: 40%;
+    height: 150px;
+    
+}
+.proteinidiv .Amino{
+    width: 40%;
+    height: 200px;
+
+}
+.proteinidiv .protein{
+    width: 40%;
+    height: fit-content;
+    
+}
+.kategorii{
+    text-align: center;
+    
+}
+.proteinidiv{
+    text-align: left;
+    
+}
+.kategorii:hover{
+
+    
+   
+    opacity: 0.8;
+
+}

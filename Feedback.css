@@ -1,0 +1,45 @@
+.page-wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.feedback-form {
+    max-width: 500px;
+    margin: 0 auto;
+    height: max-content;
+}
+
+.form-label {
+    display: block;
+    margin-top: 10px;
+}
+
+.grading-section {
+    margin-bottom: 20px;
+}
+
+.grading-input {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.form-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 200px;
+    resize: none;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}

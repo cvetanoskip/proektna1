@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Креатини - Biotech</title>
+        <link rel="stylesheet" href="Proektna.css">
+        <link rel="stylesheet" href="proizvod.css">
+        <link rel="stylesheet" href="kategorija.css">
+        <script type="text/javascript" src="Proektna.js"></script> 
+       
+      </head>
+    <body id="main">
+        
+        <div id="najava" class="najava">
+            
+            <a href="javascript:void(0)" class="closebtn" id="closebtn">&times;</a>
+            <div id="najavise" class="najavatext">Најави се</div>
+            <br>
+            <div id="ime1" class="ime1">Корисничко име</div>
+            <input type="text" id="username">
+            <div id="namewarning" class="warning">Не може корисничкото име да содржи празни места</div>
+            <br>
+            <br>
+            <div id="lozinka" class="lozinka">Лозинка</div>
+            <input type="password" id="password">
+            <div id="passwarning" class="warning1">Лозинката треба да содржи минимум 8 карактери, 1 голема, 1 мала буква и цифра</div>
+            <br>
+            <button id="login" class="login">Најави се</button>
+        
+        </div>
+        <header>
+            <div class="container">
+                <nav><a href="./Proektna.html" class="kontaktClass"><button id="pocetnakopce" class="pocetnakopce1"><img  src="./Icons/home.svg" alt="pocetna1"  class="pocetna1" ></button></a></nav>
+            <div id="div1" class="header_text">Утре бесплатни протеини</div>
+        <div id="div2" class="header_text">Отворено секогаш освен во периодите кога не е</div>
+        <div id="div3" class="ime">Профил</div>
+        <button id="profilnakopce" class="profilnakopce1"><img  src="./profile_icon/user.svg" alt="profilna"  class="profilna" ></button>
+    </div>
+    <div class="container1">
+        <div id="kategorii" class="kategorii"><nav><a href="./Proteini.html" class="kontaktClass"><div class="homeBodyCat">ПРОТЕИНИ</div></a></nav></div>
+        <div id="kategorii" class="kategorii"><nav><a href="./Kreatini.html" class="kontaktClass"><div class="homeBodyCat">КРЕАТИНИ</div></a></nav></div>
+        <div id="kategorii" class="kategorii"><nav><a href="./Aminokiselini.html" class="kontaktClass"><div class="homeBodyCat">АМИНОКИСЕЛИНИ</div></a></nav></div>
+        <div id="kategorii" class="kategorii"><nav><a href="./Feedback.html" class="kontaktClass"><div class="homeBodyCat">Feedback</div></a></nav></div>
+
+    </div>
+    <div id="odjaviDIV" class="odjavi"><button id="odjavise" class="odjavibtn">Одјави се</button></div>
+</header>
+    <div class="page-wrapper">
+        <div class="proizvod">
+            <div id="proteinidiv" class="proteinidiv"><img src="./Kreatini/BiotechKreatin.png" alt="" class="protein"><button class="like-button" onclick="toggleLike()">❤ Like</button><div class="homeBodyCat">100% Micronized Creatine Monohydrate 300gr 88servings</div></div>
+            <div id="cena" class="cena">1190 ден<ul style="list-style-type: disc;" class="opis">
+                <li>100% Creatine Monohydrate is made from pure powdered creatine monohydrate. Due to the tasteless powder form, it can be easily mixed with other food supplements, e.g. weight gainers or protein-based beverage powders.
+
+                </li>
+                <li>Aspartame free
+
+                </li>
+                <li>Dye free</li>
+                <li>Palm oil free</li>
+                <li>Sugar free
+                </li>
+            </ul>
+            <div class="quantity-wrapper">
+                <input type="number" min="0" id="quantity" class="quantity">
+                <button class="payment-button" id="payment-button">Продолжи кон наплата</button>
+            </div>
+        </div>
+        <div class="payment-area" id="paymentArea">
+            
+        </div>
+        <form id="payment-form">
+            <div class="half-width">
+                <input type="number" min="0" id="card-number" name="card-number" placeholder="Card Number">
+                <label for="card-number">Card Number</label>
+            </div>
+    
+            <div class="half-width">
+                <input type="text" id="card-holder" name="card-holder" placeholder="Cardholder Name">
+                <label for="card-holder">Cardholder Name</label>
+            </div>
+    
+            <div class="half-width">
+                <input type="month" id="expiry-date" name="expiry-date" placeholder="Expiry Date">
+                <label for="expiry-date">Expiry Date</label>
+            </div>
+    
+            <div class="half-width">
+                <input type="number" min="0" id="cvv" name="cvv" placeholder="CVV">
+                <label for="cvv">CVV</label>
+            </div>
+    
+            <div class="half-width">
+                <input type="text" id="address" name="address" placeholder="Address">
+                <label for="address">Address</label>
+            </div>
+    
+            <button type="submit">Плати</button>
+        </form>
+        <div class="comment-section">
+            <h2>Коментари</h2>
+            
+            <!-- Comment form -->
+            <div class="comment-form">
+                <textarea id="comment-text" placeholder="Внесете го вашиот коментар" rows="4" cols="50"></textarea>
+                <button id="submit-comment">Постави коментар</button>
+            </div>
+        </div>
+        </div>
+    
+
+    <footer>
+        <div class="footer-content">
+            <div id="div1" class="footer-text"><p>Работно време: Пон-Пет, 09:00-22:00 <br> Сабота 10:00-20:00, Недела- Затворено</p>
+            <p>email: info@suplementi.mk </p>
+           <p>Тел: +389 70 231 589</p></div>
+        <div id="div2" class="footer-text">
+            <p style="font-weight: bold;">Корисни линкови</p>
+            <nav><a href="./Kontakt.html" class="kontaktClass"><p>Контакт</p></a></nav>
+            
+        </div>
+        <div id="div3" class="ime">
+            <p style="font-weight: bold;">Достава преку:</p>
+        <div id="dostava" class="dostavaclass"><img src="./Icons/kargo.png"></div>
+        <p style="font-weight: bold;">Социјални мрежи:</p>
+        <div id="social" class="socialclass"><a href="https://www.facebook.com/"><img src="./Icons/fblogo.png" alt="social" class="sociallogoclass"></a>
+        <a href="https://www.instagram.com/"><img src="./Icons/instalogo.png" alt="social" class="sociallogoclass"></a></div>
+        
+        </div>
+        
+    </div>
+        <div id="dymatize" class="dymatizeclass"><a href="https://dymatize.com/"><img src="./Icons/dymatize.png" alt="dymatize" class="dymatizelogoclass"></a></div>
+        <div id="dymatize" class="dymatizeclass"><a href="https://shop.biotechusa.com/"><img src="./Icons/biotech.png" alt="dymatize" class="dymatizelogoclass"></a></div>
+        <div id="dymatize" class="dymatizeclass"><a href="https://scitecnutrition.com/"><img src="./Icons/scitecnutrition.png" alt="dymatize" class="dymatizelogoclass"></a></div>
+        <div id="payment" class="paymentclass"><img src="./Icons/payments.png" alt="dymatize" class="paymentlogo"></div>
+        <div id="establish" class="establishclass">Суплементи &copy; 2023 CREATED BY Petar</div>
+    </footer>
+    </body>
+</html>
