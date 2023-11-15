@@ -4,9 +4,12 @@ html,body
         rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.6)
       ), url(./Icons/supplements.jpg);
-    background-color: white;
-    height: 100%;
+      height: fit-content;
 }
+  body{
+
+  }
+
 .container1{
     margin-top: 15px;
    

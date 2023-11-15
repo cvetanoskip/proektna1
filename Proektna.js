@@ -83,31 +83,23 @@ function proceedToPayment() {
 }
 
 }
-// JavaScript code for comments
+
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('submit-comment').addEventListener('click', function () {
-        // Get comment text
+        
         var commentText = document.getElementById('comment-text').value.trim();
 
-        // Get user name from class "ime" or set it to "Anonymous"
         var userName = document.querySelector('.ime').textContent.trim();
         userName = (userName !== "Профил") ? userName : "Anonymous";
-
-        // Check if comment text is not empty
         if (commentText !== "") {
-            // Add the new comment to the comment section
+            
             displayComment(userName, commentText);
-
-            // Clear the comment text area
-            document.getElementById('comment-text').value = "";
+        document.getElementById('comment-text').value = "";
         }
     });
-
-    // Add event delegation for the delete button
     document.querySelector('.comment-section').addEventListener('click', function (event) {
         if (event.target.classList.contains('delete-comment')) {
-            // Remove the comment element
-            var commentElement = event.target.closest('.comment');
+          var commentElement = event.target.closest('.comment');
             commentElement.remove();
         }
     });
@@ -124,8 +116,6 @@ function displayComment(author, text) {
     var textElement = document.createElement('div');
     textElement.className = 'comment-text';
     textElement.textContent = text;
-
-    // Create delete button
     var deleteButton = document.createElement('button');
     deleteButton.className = 'delete-comment';
     deleteButton.textContent = 'X';

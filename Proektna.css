@@ -152,6 +152,8 @@ text-align: center;
 }
 .page-wrapper{
     min-height: 100%;
+    
+    
 }
 .ime{
     text-align: right;
@@ -163,12 +165,11 @@ html, body{
       ), url(./Icons/background.jpg);
     
     background-repeat: no-repeat;
+    
     background-size: cover;
     background-position: 0% 20%;
     color: white;
     font-size: 20px;
-    
-    
     margin: 0;
     padding: 0;
     height: 100%;
